@@ -8,7 +8,8 @@
                 "lToken": "0x910be4eCC65416BEE8db0A654067Fd75a68763A9",
                 "pool": "0xEBdceBC6916481039DECFa3e92051Da5b30B4AFb",
                 "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
-                "chanId":"3"
+                "chanId":"3",
+                "tvl":"1"
             }
         ],
         [
@@ -18,7 +19,8 @@
                 "lToken": "0x4A2F020f0047Ff41429B5Fe2B71b34E9eA66905D",
                 "pool": "0x8B8D4998A366e7535eAc0d4d4Ad4DCf1AB113625",
                 "dToken": "0x3fd65Ca44aF8E6d2181272339735ce96772c241B",
-                "chanId":"97"
+                "chanId":"97",
+                "tvl":"1"
             }
         ],
         [
@@ -28,7 +30,8 @@
                 "lToken": "0x024d98167287B2980353170D1887940644072fdC",
                 "pool": "0x3F3B590bd526449B4B4b6710ff26a4c6d0F731e0",
                 "dToken": "0x5bD4379E5B9beFB08c617E7801ac552596a20404",
-                "chanId":"256"
+                "chanId":"256",
+                "tvl":"0"
             }
         ]
         
