@@ -1,5 +1,9 @@
 {
     "oracleUrl": "https://oracle.deri.finance/price",
+    "databaseAddress": "0xE1f6A5899d6601e29a3668aC5Ffef573f5963031",
+    "bscurl":"https://data-seed-prebsc-2-s1.binance.org:8545/",
+    "deriAddress":"0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
+    "deriDataBaseAbi":[{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"poolData","outputs":[{"internalType":"uint256","name":"apy","type":"uint256"},{"internalType":"uint256","name":"finishLine","type":"uint256"},{"internalType":"uint256","name":"finishBlock","type":"uint256"},{"internalType":"uint256","name":"finishRank","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"userData","outputs":[{"internalType":"uint256","name":"deriHarvested","type":"uint256"},{"internalType":"uint256","name":"deriClaimed","type":"uint256"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"stateMutability":"view","type":"function"}],
     "addresses": [
         [
             {
