@@ -1,5 +1,9 @@
 {
     "oracleUrl": "https://oracle.deri.finance/price",
+    "databaseAddress": "0xE1f6A5899d6601e29a3668aC5Ffef573f5963031",
+    "bscurl":"https://data-seed-prebsc-2-s1.binance.org:8545/",
+    "deriAddress":"0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
+    "deriDataBaseAbi":[{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"poolData","outputs":[{"internalType":"uint256","name":"apy","type":"uint256"},{"internalType":"uint256","name":"finishLine","type":"uint256"},{"internalType":"uint256","name":"finishBlock","type":"uint256"},{"internalType":"uint256","name":"finishRank","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"userData","outputs":[{"internalType":"uint256","name":"deriHarvested","type":"uint256"},{"internalType":"uint256","name":"deriClaimed","type":"uint256"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"stateMutability":"view","type":"function"}],
     "addresses": [
         [
             {
@@ -9,6 +13,7 @@
                 "pool": "0xEBdceBC6916481039DECFa3e92051Da5b30B4AFb",
                 "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
                 "chanId":"3",
+                "staking":false,
                 "isInTvlRace":true
             },
             {
@@ -18,7 +23,18 @@
                 "pool": "0xfF37C81c04F3d79f3B40f589c665b1A7a9B22bBa",
                 "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
                 "chanId":"3",
+                "staking":false,
                 "isInTvlRace":true
+            },
+            {
+                "bToken": "0xA6163350Ba2Ca2B0f39ed136A1abD0D7244C4032",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0xF6E9dC9223B732Bc04d5a9A165F9f7a6A3d89581",
+                "pool": "0xeEd68BB4AE06e5b03bF5aE836b14421032895c84",
+                "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
+                "chanId":"3",
+                "staking":true,
+                "isInTvlRace":false
             }
         ],
         [
@@ -29,6 +45,7 @@
                 "pool": "0xBA5805E672377339CBa0Dc7bCe1fdA0349d73Be8",
                 "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
                 "chanId":"97",
+                "staking":false,
                 "isInTvlRace":true
             }
         ],
@@ -40,7 +57,8 @@
                 "pool": "0x3125CC899489159ca60BB3490136dE6D208E3a53",
                 "dToken": "0x3C125824a889B46f039ab7449b70AF5b8466F3cf",
                 "chanId":"256",
-                "isInTvlRace":false
+                "staking":false,
+                "isInTvlRace":true
             }
         ]
         
