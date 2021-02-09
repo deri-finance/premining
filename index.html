@@ -52,19 +52,35 @@
         </div>
     </div> 
     <script>
+
         function getRTime(){ 
-        var EndTime= new Date('2021/2/9 22:00:00'); //截止时间 
-        var NowTime = new Date(); 
-        var t =EndTime.getTime() - NowTime.getTime(); 
+        let dtime = new Date();
+        let rday = dtime.getUTCDate();
+        let week = dtime.getUTCDay();
+        let gday = rday + week;
+        let dhour = dtime.setUTCHours(13);
+        let dmin = dtime.setUTCMinutes(59);
+        let dsecond = dtime.setUTCSeconds(59);
+        let sday = dtime.getUTCDate();
+        let shour = dtime.getUTCHours();
+        let smin = dtime.getUTCMinutes();
+        let ssecond = dtime.getUTCSeconds();
+        let that = this;
+        setInterval(function () {
+            let time = new Date();
+            let day = time.getUTCDate();
+            let hour = time.getUTCHours();
+            let min = time.getUTCMinutes();
+            let second = time.getUTCSeconds();
+            let chour = shour - hour;
+            let cmin = smin - min;
+            let csecond = ssecond - second;
+            let timehtml = `${chour} : ${cmin} : ${csecond} `;
+            document.getElementById("t_h").innerHTML = timehtml; 
+        }, 1000);
         
-        var d=Math.floor(t/1000/60/60/24); 
-        var h=Math.floor(t/1000/60/60%24); 
-        var m=Math.floor(t/1000/60%60); 
-        var s=Math.floor(t/1000%60); 
-        
-        document.getElementById("t_h").innerHTML = `${h} : ${m} : ${s}`; 
         } 
-        setInterval(getRTime,1000); 
+        getRTime()
     </script>
 </body>
 </html>
