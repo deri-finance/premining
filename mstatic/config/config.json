@@ -95,17 +95,7 @@
                 "bTokenSymbol":"USDT",
                 "isInTvlRace":true
             },
-            {
-                "bToken": "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a",
-                "pToken": "0x0000000000000000000000000000000000000000",
-                "lToken": "0xeC27d4c53C2E29F1113A9667c0B19442df83c1f1",
-                "pool": "0x8518054fa6b7E0d4834bfD152c9BA5BDB856FD2B",
-                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
-                "chanId":"1",
-                "staking":false,
-                "bTokenSymbol":"BAC",
-                "isInTvlRace":true
-            },
+            
             {
                 "bToken": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
                 "pToken": "0x0000000000000000000000000000000000000000",
