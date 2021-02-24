@@ -48,6 +48,17 @@
                 "staking":false,
                 "bTokenSymbol":"CAKE",
                 "isInTvlRace":false
+            },
+            {
+                "bToken": "0xa184088a740c695E156F91f5cC086a06bb78b827",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x167704539C9acAcF6f0C2D7AAeB4413339F86AaA",
+                "pool": "0x03dA5cB10D868c5F979b277eb6DF17D50E78fE2A",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"56",
+                "staking":false,
+                "bTokenSymbol":"AUTO",
+                "isInTvlRace":false
             }
         ],
         [
