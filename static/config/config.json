@@ -53,7 +53,7 @@
                 "pool": "0x03dA5cB10D868c5F979b277eb6DF17D50E78fE2A",
                 "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
                 "chanId":"56",
-                "staking":false,
+                "staking":true,
                 "bTokenSymbol":"AUTO",
                 "isInTvlRace":false
             }
@@ -139,6 +139,17 @@
                 "staking":true,
                 "bTokenSymbol":"DERI-USDT SLP",
                 "isInTvlRace":false
+            },
+            {
+                "bToken": "0xA3DfbF2933FF3d96177bde4928D0F5840eE55600",
+                "pToken": "0x0000000000000000000000000000000000000000",
+                "lToken": "0x0000000000000000000000000000000000000000",
+                "pool": "0xc2EdaD668740f1aA35E4D8f227fB8E17dcA888Cd",
+                "dToken": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
+                "chanId":"1",
+                "staking":true,
+                "bTokenSymbol":"DERI-USDT SLP ONSEN",
+                "isInTvlRace":false
             }
             
         ]
@@ -148,6 +159,7 @@
 
     "abifiles": {
         "pool": "pool.abi",
+        "SushiMasterChef":"SushiMasterChef.abi",
         "bToken": "bToken.abi",
         "pToken": "pToken.abi",
         "lToken": "lToken.abi",
